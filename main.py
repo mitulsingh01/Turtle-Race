@@ -7,7 +7,7 @@ screen = Screen()
 screen.setup(width=500, height=400)
 bet = screen.textinput(title="Who are you betting on?", prompt="Who do you think is gonna win? Choose the color: ")
 bet = bet.lower()
-colors = ["Red", "Blue", "Green", "Orange" , "Yellow", "Purple"]
+colors = ["red", "blue", "green", "orange" , "yellow", "purple"]
 y_pos = [-125,-75,-25,25,75,125]
 turtles = []
 
